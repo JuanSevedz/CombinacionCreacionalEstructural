@@ -1,4 +1,4 @@
-package Factories;
+package factory;
 
 public class DisplayFactory {
   

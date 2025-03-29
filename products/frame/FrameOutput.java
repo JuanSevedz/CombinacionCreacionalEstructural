@@ -1,4 +1,4 @@
-package ConcreteImplementations;
+package products.frame;
 
 public class FrameOutput {
   

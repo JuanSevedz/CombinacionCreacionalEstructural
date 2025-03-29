@@ -1,4 +1,4 @@
-package Adapters;
+package adapter;
 
 public class EntryAdapter {
   
