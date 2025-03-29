@@ -1,5 +1,7 @@
 package products;
 
-public class Output {
+public interface Output {
+
+  void showData(Object data);
   
 }

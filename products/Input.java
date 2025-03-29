@@ -1,5 +1,7 @@
 package products;
 
-public class Input {
+public interface Input {
+
+  Object getData();
   
 }

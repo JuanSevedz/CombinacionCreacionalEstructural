@@ -6,7 +6,7 @@ import products.web.WebInput;
 import products.web.WebOutput;
 
 
-public class WebDisplayFactory {
+public class WebDisplayFactory extends DisplayFactory{
 
   @Override
   public Input createInput() {
@@ -18,10 +18,6 @@ public class WebDisplayFactory {
   public Output createOutput() {
     return new WebOutput();
   }
-
-
-
-
   
 }
 
