@@ -1,390 +1,400 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>7</zoom_level>
+  <zoom_level>4</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>595</x>
-      <y>322</y>
-      <w>161</w>
-      <h>49</h>
-    </coordinates>
-    <panel_attributes>ConsoleOutputFactory
---
-+ createOutput(): ConsoleOutput</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>329</x>
+      <x>464</x>
       <y>476</y>
-      <w>84</w>
-      <h>56</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;interface&gt;&gt;
-Input
---
-+ getData()
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>0</x>
-      <y>322</y>
-      <w>147</w>
-      <h>42</h>
-    </coordinates>
-    <panel_attributes>ConsoleInputFactory
---
-+ createInput(): ConsoleInput</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>217</x>
-      <y>189</y>
-      <w>133</w>
-      <h>56</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;interface&gt;&gt;
-InputFactory
---
---
-+ createInput(): Input</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>476</x>
-      <y>91</y>
-      <w>105</w>
-      <h>56</h>
-    </coordinates>
-    <panel_attributes>Client
---
-- InputFactory()
-- OutputFactory()
---
-+ processData()</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>784</x>
-      <y>182</y>
-      <w>119</w>
-      <h>56</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;interface&gt;&gt;
-OutputFactory
---
---
-+ createOutput(): Output</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>266</x>
-      <y>140</y>
-      <w>280</w>
-      <h>63</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-</panel_attributes>
-    <additional_attributes>10.0;70.0;10.0;40.0;380.0;40.0;380.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>525</x>
-      <y>161</y>
-      <w>329</w>
-      <h>35</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>450.0;30.0;450.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>203</x>
-      <y>322</y>
-      <w>147</w>
-      <h>49</h>
-    </coordinates>
-    <panel_attributes>FrameInputFactory
---
-+ createInput(): FrameInput</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>406</x>
-      <y>322</y>
-      <w>147</w>
-      <h>49</h>
-    </coordinates>
-    <panel_attributes>WebInputFactory
---
-+ createInput(): WebInput</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>980</x>
-      <y>322</y>
-      <w>147</w>
-      <h>49</h>
-    </coordinates>
-    <panel_attributes>WebOutputFactory
---
-+ createOutput(): WebOutput</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>791</x>
-      <y>322</y>
-      <w>147</w>
-      <h>49</h>
-    </coordinates>
-    <panel_attributes>FrameOutputFactory
---
-+ createOutput(): FrameOutput</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>273</x>
-      <y>238</y>
-      <w>224</w>
-      <h>98</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0;300.0;50.0;300.0;120.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>273</x>
-      <y>182</y>
-      <w>21</w>
-      <h>154</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;200.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>70</x>
-      <y>238</y>
-      <w>224</w>
-      <h>98</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>300.0;10.0;300.0;50.0;10.0;50.0;10.0;120.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>840</x>
-      <y>231</y>
-      <w>21</w>
-      <h>105</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>840</x>
-      <y>231</y>
-      <w>224</w>
-      <h>105</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0;300.0;60.0;300.0;130.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>637</x>
-      <y>231</y>
-      <w>224</w>
-      <h>105</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>300.0;10.0;300.0;60.0;10.0;60.0;10.0;130.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>763</x>
-      <y>476</y>
-      <w>84</w>
-      <h>56</h>
+      <w>104</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 Output
 --
-+ sendData()</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>609</x>
-      <y>581</y>
-      <w>84</w>
-      <h>56</h>
-    </coordinates>
-    <panel_attributes>ConsoleOutput
 --
-+ sendData()</panel_attributes>
++ getData() : Object</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>763</x>
-      <y>581</y>
-      <w>84</w>
-      <h>56</h>
+      <x>700</x>
+      <y>136</y>
+      <w>108</w>
+      <h>48</h>
     </coordinates>
-    <panel_attributes>FrameOutput
+    <panel_attributes>Client
 --
-+ sendData()</panel_attributes>
+- factory: InputOutputFactory
+- input: Input
+- output: Output
+- adapter: DataTypeAdapter
+--
++ processData()
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>896</x>
-      <y>581</y>
-      <w>84</w>
-      <h>56</h>
+      <x>464</x>
+      <y>208</y>
+      <w>104</w>
+      <h>48</h>
     </coordinates>
-    <panel_attributes>WebOutput
+    <panel_attributes>ConsoleInputOutputFactory
 --
-+ sendData()</panel_attributes>
+--
++ createInput() : ConsoleInput
++ createOutput() : ConsoleOutput
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>189</x>
-      <y>588</y>
-      <w>84</w>
-      <h>56</h>
+      <x>464</x>
+      <y>380</y>
+      <w>104</w>
+      <h>48</h>
     </coordinates>
-    <panel_attributes>ConsoleInput
+    <panel_attributes>FrameInputOutputFactory
 --
-+ getData()</panel_attributes>
+--
++ createInput() : FrameInput
++ createOutput() : FrameOutput
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>329</x>
-      <y>588</y>
-      <w>84</w>
-      <h>56</h>
+      <x>464</x>
+      <y>292</y>
+      <w>104</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>WebInputOutputFactory
+--
+--
++ createInput() : WebInput
++ createOutput() : WebOutput
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>624</x>
+      <y>292</y>
+      <w>104</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+InputOutputFactory
+--
+--
++ createInput() : Input
++ createOutput() : Output
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>460</x>
+      <y>108</y>
+      <w>104</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+Input
+--
+--
++ getData() : Object</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>220</x>
+      <y>276</y>
+      <w>104</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>FrameInput
 --
-+ getData()</panel_attributes>
+--
++ getData() : Object</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>462</x>
-      <y>588</y>
-      <w>84</w>
-      <h>56</h>
+      <x>220</x>
+      <y>344</y>
+      <w>104</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>ConsoleOutput
+--
+--
++ sendData(data : Object)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>220</x>
+      <y>144</y>
+      <w>104</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>ConsoleInput
+--
+--
++ getData() : Object</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>220</x>
+      <y>212</y>
+      <w>104</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>WebInput
 --
-+ getData()</panel_attributes>
+--
++ getData() : Object</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>220</x>
+      <y>408</y>
+      <w>104</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>WebOutput
+--
+--
++ sendData(data : Object)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>220</x>
+      <y>472</y>
+      <w>104</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>FrameOutput
+--
+--
++ sendData(data : Object)</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>224</x>
-      <y>525</y>
-      <w>161</w>
-      <h>77</h>
+      <x>564</x>
+      <y>180</y>
+      <w>196</w>
+      <h>328</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>210.0;10.0;210.0;40.0;10.0;40.0;10.0;90.0</additional_attributes>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;800.0;470.0;800.0;470.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>658</x>
-      <y>518</y>
-      <w>161</w>
-      <h>77</h>
+      <x>668</x>
+      <y>248</y>
+      <w>92</w>
+      <h>52</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>210.0;10.0;210.0;40.0;10.0;40.0;10.0;90.0</additional_attributes>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0;210.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>364</x>
-      <y>525</y>
-      <w>21</w>
-      <h>77</h>
+      <x>560</x>
+      <y>120</y>
+      <w>200</w>
+      <h>24</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;480.0;10.0;480.0;40.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>798</x>
-      <y>518</y>
-      <w>21</w>
-      <h>77</h>
+      <x>564</x>
+      <y>312</y>
+      <w>68</w>
+      <h>12</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+    <additional_attributes>150.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>364</x>
-      <y>525</y>
-      <w>161</w>
-      <h>77</h>
+      <x>564</x>
+      <y>312</y>
+      <w>36</w>
+      <h>100</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;40.0;210.0;40.0;210.0;90.0</additional_attributes>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;230.0;70.0;230.0;70.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>798</x>
-      <y>518</y>
-      <w>161</w>
-      <h>77</h>
+      <x>564</x>
+      <y>228</y>
+      <w>36</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0;70.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>172</x>
+      <y>68</y>
+      <w>348</w>
+      <h>244</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;40.0;210.0;40.0;210.0;90.0</additional_attributes>
+    <additional_attributes>850.0;100.0;850.0;10.0;10.0;10.0;10.0;590.0;120.0;590.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>172</x>
+      <y>164</y>
+      <w>56</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>172</x>
+      <y>232</y>
+      <w>56</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>172</x>
+      <y>360</y>
+      <w>352</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>860.0;410.0;860.0;500.0;10.0;500.0;10.0;10.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>172</x>
+      <y>428</y>
+      <w>56</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>172</x>
+      <y>492</y>
+      <w>56</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>164</y>
+      <w>152</w>
+      <h>76</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>10.0;10.0;280.0;10.0;280.0;170.0;360.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>228</y>
+      <w>120</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>10.0;340.0;280.0;340.0;280.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>232</y>
+      <w>152</w>
+      <h>92</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>10.0;10.0;210.0;10.0;210.0;210.0;360.0;210.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>312</y>
+      <w>92</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>10.0;300.0;210.0;300.0;210.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>296</y>
+      <w>152</w>
+      <h>116</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;10.0;130.0;270.0;360.0;270.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>400</y>
+      <w>60</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>10.0;240.0;130.0;240.0;130.0;10.0</additional_attributes>
   </element>
 </diagram>
