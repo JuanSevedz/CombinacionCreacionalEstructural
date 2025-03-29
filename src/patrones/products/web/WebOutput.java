@@ -1,7 +1,7 @@
-package products.web;
+package src.patrones.products.web;
 
 
-import products.Output;
+import src.patrones.products.Output;
 
 public class WebOutput implements Output {
 

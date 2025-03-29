@@ -1,9 +1,10 @@
-package products.web;
+package src.patrones.products.web;
 
-import products.Input;
 import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
+
+import src.patrones.products.Input;
 
 public class WebInput implements Input{
 

@@ -1,9 +1,9 @@
-package factory;
+package src.patrones.factory;
 
-import products.Input;
-import products.Output;
-import products.web.WebInput;
-import products.web.WebOutput;
+import src.patrones.products.Input;
+import src.patrones.products.Output;
+import src.patrones.products.web.WebInput;
+import src.patrones.products.web.WebOutput;
 
 
 public class WebDisplayFactory extends DisplayFactory{
@@ -18,7 +18,7 @@ public class WebDisplayFactory extends DisplayFactory{
   public Output createOutput() {
     return new WebOutput();
   }
-  
+
 }
 
 

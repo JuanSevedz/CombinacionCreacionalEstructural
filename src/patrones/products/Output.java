@@ -1,4 +1,4 @@
-package products;
+package src.patrones.products;
 
 public interface Output {
 
