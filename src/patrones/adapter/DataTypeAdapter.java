@@ -1,5 +1,6 @@
 package src.patrones.adapter;
 
-public class ExitAdapter {
+public interface DataTypeAdapter {
+
   
 }

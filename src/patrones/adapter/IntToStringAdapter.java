@@ -1,5 +1,5 @@
 package src.patrones.adapter;
 
-public class EntryAdapter {
+public class IntToStringAdapter {
   
 }
